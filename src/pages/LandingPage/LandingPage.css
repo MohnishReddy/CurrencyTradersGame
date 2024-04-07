@@ -1,0 +1,64 @@
+#landing-page {
+  background-color: azure;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#landing-page-block {
+  background-color: rgba(57, 245, 57, 0.315);
+  width: fit-content;
+  height: fit-content;
+  padding: 100px;
+  border-radius: 5px;
+}
+
+#start-game-button {
+  margin: 10px;
+  width: 30%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px red dotted;
+  background-color: brown;
+  color: white;
+}
+
+#my-currency-selector {
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  margin: 10px;
+  margin-top: 40px;
+}
+
+#start-game-button:disabled {
+  margin: 10px;
+  width: 30%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px gray dotted;
+  background-color: lightgray;
+  color: darkgray;
+}
+
+#select-currency-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#currency-options-dropdown {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.heading-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

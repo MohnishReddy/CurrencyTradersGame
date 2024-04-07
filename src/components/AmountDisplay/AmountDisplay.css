@@ -1,0 +1,8 @@
+.amount-display-block {
+    height: 100%;
+    width: fit-content;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    align-content: baseline
+}

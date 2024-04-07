@@ -1,0 +1,28 @@
+.currency-option-button-wrapper {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.currency-option-button {
+    font-size: 30px;
+    margin: max(30px, 5%);
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(138, 4, 4);
+    color: whitesmoke;
+    border: 3px red solid;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px black;
+}
+
+.currency-option-button:hover {
+    font-size: 30px;
+    margin: max(30px, 5%);
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(182, 11, 11);
+    color: whitesmoke;
+    border: 3px rgb(255, 0, 0) solid;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px black;
+}
